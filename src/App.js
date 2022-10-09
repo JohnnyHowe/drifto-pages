@@ -6,8 +6,7 @@ function App() {
     <div className="App">
       DRIFTO
       <br/>
-      {navigator.platform}
-      <Link to="/drifto-pages/redirect-to-store">View In Store</Link>
+      <Link to="/redirect-to-store">View In Store</Link>
     </div>
   );
 }

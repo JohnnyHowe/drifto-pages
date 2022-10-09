@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 // Components
 import App from './App';
@@ -13,7 +13,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="drifto-pages/redirect-to-store" element={<RedirectToStorePage />} />
+        <Route path="/redirect-to-store" element={<RedirectToStorePage />} />
         <Route path="*" element={<App />} />
       </Routes>
     </Router>
