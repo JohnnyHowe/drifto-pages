@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// Components
+import App from './App';
+import RedirectToStorePage from './components/RedirectToStorePage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="drifto-pages/redirect-to-store" element={<RedirectToStorePage />} />
+        <Route path="*" element={<App />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 

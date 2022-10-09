@@ -1,15 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import {deviceOS} from './helpers/deviceHelper';
+import { Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       DRIFTO
       <br/>
-      Ur on a {deviceOS()}
-      <br/>
       {navigator.platform}
+      <Link to="/drifto-pages/redirect-to-store">View In Store</Link>
     </div>
   );
 }

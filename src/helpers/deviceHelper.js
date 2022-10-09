@@ -7,8 +7,14 @@ const operatingSystems = {
         'iPhone',
         'iPod'
     ],
-    mac: [
+    Mac: [
         'MacIntel'
+    ],
+    Windows: [
+        'Win32'
+    ],
+    Android: [
+        'Linux armv8l',
     ]
 }
 
