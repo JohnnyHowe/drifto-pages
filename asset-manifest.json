@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/drifto-pages/static/css/main.073c9b0a.css",
-    "main.js": "/drifto-pages/static/js/main.fd16a48d.js",
+    "main.js": "/drifto-pages/static/js/main.de546680.js",
     "static/js/787.0de78ab5.chunk.js": "/drifto-pages/static/js/787.0de78ab5.chunk.js",
     "index.html": "/drifto-pages/index.html",
     "main.073c9b0a.css.map": "/drifto-pages/static/css/main.073c9b0a.css.map",
-    "main.fd16a48d.js.map": "/drifto-pages/static/js/main.fd16a48d.js.map",
+    "main.de546680.js.map": "/drifto-pages/static/js/main.de546680.js.map",
     "787.0de78ab5.chunk.js.map": "/drifto-pages/static/js/787.0de78ab5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.fd16a48d.js"
+    "static/js/main.de546680.js"
   ]
 }
