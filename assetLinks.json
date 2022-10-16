@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "drifto",
+    "package_name": "com.UnluckyDuck.Drifto",
+    "sha256_cert_fingerprints":
+    ["5D:4F:3C:04:69:DE:0C:9B:1A:FE:6D:7F:7E:D6:74:26:07:FD:09:34:F5:67:AD:CA:50:82:C6:EB:31:70:FF:81"]
+  }
+}]
