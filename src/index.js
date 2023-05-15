@@ -7,6 +7,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 // Components
 import App from './App';
 import RedirectToStorePage from './components/RedirectToStorePage';
+import ScoresResetExplanation from './pages/ScoresResetExplanation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Router>
       <Routes>
         <Route path="/redirect-to-store" element={<RedirectToStorePage />} />
+        <Route path="/score-reset-explanation" element={<ScoresResetExplanation />} />
         <Route path="*" element={<App />} />
       </Routes>
     </Router>

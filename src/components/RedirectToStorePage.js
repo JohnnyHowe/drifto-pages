@@ -2,6 +2,8 @@ import { deviceOS } from '../helpers/deviceHelper';
 import GetItOnGooglePlay from './GetItOnGooglePlay';
 import DownloadOnTheAppStore from './DownloadOnTheAppStore';
 import constants from '../helpers/constants';
+import React, { Component }  from 'react';
+
 
 export default function RedirectToStorePage() {
     let os = deviceOS();
