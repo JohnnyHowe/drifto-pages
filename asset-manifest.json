@@ -1,15 +1,15 @@
 {
-  "files": {
-    "main.css": "/drifto-pages/static/css/main.073c9b0a.css",
-    "main.js": "/drifto-pages/static/js/main.76058bef.js",
-    "static/js/787.0de78ab5.chunk.js": "/drifto-pages/static/js/787.0de78ab5.chunk.js",
-    "index.html": "/drifto-pages/index.html",
-    "main.073c9b0a.css.map": "/drifto-pages/static/css/main.073c9b0a.css.map",
-    "main.76058bef.js.map": "/drifto-pages/static/js/main.76058bef.js.map",
-    "787.0de78ab5.chunk.js.map": "/drifto-pages/static/js/787.0de78ab5.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.76058bef.js"
-  ]
+  "main.css": "/drifto-pages/static/css/main.b18e60c4.chunk.css",
+  "main.js": "/drifto-pages/static/js/main.d78661c9.chunk.js",
+  "main.js.map": "/drifto-pages/static/js/main.d78661c9.chunk.js.map",
+  "static/js/1.3bc8ac50.chunk.js": "/drifto-pages/static/js/1.3bc8ac50.chunk.js",
+  "static/js/1.3bc8ac50.chunk.js.map": "/drifto-pages/static/js/1.3bc8ac50.chunk.js.map",
+  "static/js/2.152d0436.chunk.js": "/drifto-pages/static/js/2.152d0436.chunk.js",
+  "static/js/2.152d0436.chunk.js.map": "/drifto-pages/static/js/2.152d0436.chunk.js.map",
+  "runtime~main.js": "/drifto-pages/static/js/runtime~main.42f8dfb5.js",
+  "runtime~main.js.map": "/drifto-pages/static/js/runtime~main.42f8dfb5.js.map",
+  "static/css/main.b18e60c4.chunk.css.map": "/drifto-pages/static/css/main.b18e60c4.chunk.css.map",
+  "index.html": "/drifto-pages/index.html",
+  "precache-manifest.83538bd9a8c23735ba71fb6c2aa7c21c.js": "/drifto-pages/precache-manifest.83538bd9a8c23735ba71fb6c2aa7c21c.js",
+  "service-worker.js": "/drifto-pages/service-worker.js"
 }
