@@ -10,7 +10,7 @@ function App() {
       <br />
       <Link to="/redirect-to-store">View In Store</Link>
       <br />
-      <a href="/privacy-policy.html">Privacy Policy</a>
+      <a href="https://johnnyhowe.github.io/drifto-pages/privacy-policy.html">Privacy Policy</a>
     </div>
   );
 }
