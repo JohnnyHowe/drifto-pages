@@ -1,13 +1,10 @@
 import { deviceOS } from '../helpers/deviceHelper';
-import GetItOnGooglePlay from './GetItOnGooglePlay';
-import DownloadOnTheAppStore from './DownloadOnTheAppStore';
 import constants from '../helpers/constants';
-import React, { Component }  from 'react';
+import React  from 'react';
 
 
 export default function RedirectToStorePage() {
     let os = deviceOS();
-    let error = "fsda";
     let url;
 
     try {
