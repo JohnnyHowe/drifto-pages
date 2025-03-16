@@ -14,12 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start:win": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "start:linux": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "start": "npm run start:win || npm run start:linux",
-    "build:win": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
-    "build:linux": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
-    "build": "npm run build:win || npm run build:linux",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
